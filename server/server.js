@@ -17,10 +17,10 @@ router.get('/users', function(req, res) {
 });
 
 
-app.get('/', function(req, res) {
-    // res.send('Homepage');
-    res.sendFile(path.join(__dirname + '/../public/space.html'));
-});
+// app.get('/', function(req, res) {
+//     // res.send('Homepage');
+//     res.sendFile(path.join(__dirname + '/../public/space.html'));
+// });
 
 app.use(express.static('public'));
 

@@ -22,13 +22,13 @@ router.get('/users', function(req, res) {
 //     res.sendFile(path.join(__dirname + '/../public/space.html'));
 // });
 
-app.use(express.static('public'));
-
+    
 
 app.use(subdomain('space', router));
 
- app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static('public'));
 
+ app.use(express.static(path.join(__dirname, '../public')));
 
 
 

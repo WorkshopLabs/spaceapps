@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.0",
+    "express-subdomain": "^1.0.5",
     "install": "^0.1.8",
     "npm": "^2.13.2",
     "react": "^0.14.7",

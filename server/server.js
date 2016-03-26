@@ -23,13 +23,13 @@ router.get('/users', function(req, res) {
 //     res.send('Homepage');
 // });
 
+app.use(subdomain('space', router));
 
 app.use(express.static(path.join(__dirname, '../public')));
 
 
-app.use(subdomain('space', router));
 
 
 app.listen( port, function(){
-	console.log('conectado en ', port);
+    console.log('conectado en ', port);
 });

@@ -7,7 +7,6 @@ var port = process.env.PORT || 3030;
 
 //api specific routes 
 router.get('/', function(req, res) {
-    app.use(express.static('public'));
     res.sendFile(path.join(__dirname + '../public/space.html'));
 });
  
@@ -27,6 +26,7 @@ router.get('/users', function(req, res) {
 
 app.use(subdomain('space', router));
 
+    app.use(express.static('public'));
 
 
  app.use(express.static(path.join(__dirname, '../public')));

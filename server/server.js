@@ -19,9 +19,9 @@ router.get('/users', function(req, res) {
 
 
 
-app.get('/', function(req, res) {
-    res.send('Homepage');
-});
+// app.get('/', function(req, res) {
+//     res.send('Homepage');
+// });
 
 
 app.use(express.static(path.join(__dirname, '../public')));

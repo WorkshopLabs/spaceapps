@@ -7,7 +7,7 @@ var port = process.env.PORT || 3030;
 
 //api specific routes 
 router.get('/', function(req, res) {
-   res.sendFile(path.join(__dirname + '/space.html'));
+   res.sendFile(path.join(__dirname + '../public/space.html'));
 });
  
 router.get('/users', function(req, res) {

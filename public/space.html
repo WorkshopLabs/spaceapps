@@ -34,6 +34,15 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.5&appId=224863244196230";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -50,9 +59,10 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#auspiciador">Conviertete en auspiciador</a></li>
+                <li><a href="#contacto">Contactanos</a></li>
                
               </ul>
             </div>
@@ -79,7 +89,7 @@
             <div class="carousel-caption">
               <h1>El hackathon mas importante del Universo</h1>
               <p>La NASA nos abre las puertas, para que utilicemos sus datos y encontremos soluciones.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">¡Inscríbete ahora!</a></p>
+              <p><div class="fb-like" data-href="https://www.facebook.com/NasaSpaceAppsBolivia" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div></p>
             </div>
           </div>
         </div>
@@ -89,7 +99,7 @@
             <div class="carousel-caption">
               <h1>Una experiencia inolvidable</h1>
               <p>No solo trabajaras en proyectos increíbles, tambien conoceras personas soñadoras, creadoras, persistentes, genios, etc!</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+
             </div>
           </div>
         </div>
@@ -99,18 +109,18 @@
             <div class="carousel-caption">
               <h1>Más de 250 personas</h1>
               <p>Han participado en el Space Apps Cochabamba hasta el día de hoy, y 2 veces hemos clasificado finalistas a nivel internacional</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+             
             </div>
           </div>
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span class="sr-only">Anterior</span>
       </a>
       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="sr-only">Siguiente</span>
       </a>
     </div><!-- /.carousel -->
 
@@ -148,7 +158,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div class="row featurette" id="about">
         <div class="col-md-7">
           <h2 class="featurette-heading">Qué es el <span class="text-muted">Space Apps Challenge?</span></h2>
           <p class="lead">Una hackathon global compuesta por más de 100 eventos presenciales alrededor del mundo. Esto incluye oportunidades virtuales para participar y en algunos lugares bootcamps antes del evento para familiarizar a aquellos participantes que estuvieran menos familiarizados con el modelo de hackatónn. Cada año hay más eventos. El año pasado fueron 133 y para éste año, el quinto del programa, ¡esperamos que sean muchos más!</p>
@@ -162,9 +172,9 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">#<span class="text-muted">2</span></h2>
+          <h2 class="featurette-heading"><span class="text-muted"></span></h2>
           <p class="lead">Una evento de desarrollo tecnológico que se delinea sobre los talentos y la iniciativa de voluntarios de mentes brillantes; desarrolladores, ingenieros, técnicos, diseñadores y cualquier persona que tenga la pasión y el deseo de hacer un impacto inmediato en el mundo o que tenga interés en la Tierra, el Espacio y la información.</p>
-          <h2>#3</h2>
+        
            <p class="lead">Un evento que apunta al compromiso y a la colaboración a través de fronteras, sectores y poblaciones para crear un cambio de paradigma en la innovación.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
@@ -176,10 +186,10 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">#<span class="text-muted">4</span></h2>
+          <h2 class="featurette-heading"><span class="text-muted"></span></h2>
           <p class="lead">Una oportunidad para mostrar, construir, conciencia y alentar a los participantes a usar los datos de la NASA en la resolución de problemas complejos relacionados tanto con la Tierra como con el Espacio.
           </p>
-          <h2>#5</h2>
+      
           <p class="lead">
               Una colaboración internacional sin precedentes entre agencias de gobierno, organizaciones e instituciones académicas de todas partes del planeta.
           </p>
@@ -189,15 +199,94 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
+      <h1>Retos</h1>
+
+      <div>
+         <div class="row">
+           <div class="col-sm-6 col-md-4">
+             <div class="thumbnail">
+               <img src="img/tecnologia.png" alt="...">
+               <div class="caption">
+                 <h3>Tecnología</h3>
+                 <p>La tecnología hace posible la exploración</p>
+                 <p><a href="https://2016.spaceappschallenge.org/challenges/tech" target="_blank" class="btn btn-primary" role="button">Más información</a> </p>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-6 col-md-4">
+             <div class="thumbnail">
+               <img src="img/aeronautica.png" alt="...">
+               <div class="caption">
+                 <h3>Aeronautica</h3>
+                 <p>Nasa esta contigo cuando vuelas</p>
+                 <p><a href="https://2016.spaceappschallenge.org/challenges/aero" target="_blank" class="btn btn-primary" role="button">Más información</a> </p>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-6 col-md-4">
+             <div class="thumbnail">
+               <img src="img/estacionespacial.png" alt="...">
+               <div class="caption">
+                 <h3>Estación espacial</h3>
+                 <p>Fuera de la Tierra, para la Tierra. </p>
+                 <p><a href="https://2016.spaceappschallenge.org/challenges/space-station" target="_blank" class="btn btn-primary" role="button">Más información</a></p>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-6 col-md-4">
+             <div class="thumbnail">
+               <img src="img/sistemasolar.png" alt="...">
+               <div class="caption">
+                 <h3>Sistema Solar</h3>
+                 <p>Estamos allá afuera</p>
+                 <p><a href="https://2016.spaceappschallenge.org/challenges/solar-system" target="_blank" class="btn btn-primary" role="button">Más información</a> </p>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-6 col-md-4">
+             <div class="thumbnail">
+               <img src="img/tierra.png" alt="...">
+               <div class="caption">
+                 <h3>Tierra</h3>
+                 <p>Tu planeta esta cambiando, nosotros tambien</p>
+                 <p><a href="https://2016.spaceappschallenge.org/challenges/earth" target="_blank" class="btn btn-primary" role="button">Más información</a> </p>
+               </div>
+             </div>
+           </div>
+           <div class="col-sm-6 col-md-4">
+             <div class="thumbnail">
+               <img src="img/marte.png"  alt="...">
+               <div class="caption">
+                 <h3>Viaje a Marte</h3>
+                 <p>Unete a nuestra jornada</p>
+                 <p><a href="https://2016.spaceappschallenge.org/challenges/mars" target="_blank" class="btn btn-primary" role="button">Más información</a></p>
+               </div>
+             </div>
+           </div>
+         </div>
+      </div>
+
+  
+     <hr class="featurette-divider" id="contacto">
+      <h1>¡Pre-inscribete!</h1>
+      <div>
+          <iframe src="https://docs.google.com/forms/d/1M6wgM7Kb-mp3T6SEfpSsi5J0_q3XB0mXOZ2ZG1Vo7rE/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+
+        <hr class="featurette-divider">
+
+      <h1 id="auspiciador">Quieres auspiciar este evento?</h1>
+      <a href="https://drive.google.com/file/d/0B8ozliddoLpndW45dl9veDVhNjQ/view?usp=sharing" target="_blank"><div class="btn btn-success btn-lg">Descargar documento para auspiciadores</div></a>
+       <hr class="featurette-divider">
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; Workshop Labs. &middot; <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a></p>
+        <p>&copy; Workshop Labs.  </p>
       </footer>
 
     </div><!-- /.container -->

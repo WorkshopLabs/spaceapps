@@ -11,7 +11,7 @@ router.get('/', function(req, res) {
    res.sendFile(path.join(__dirname, '../public/space.html'));
 });
 
-router.get('/', function(req, res) {
+router2.get('/', function(req, res) {
    res.sendFile(path.join(__dirname, '../public/grafico.html'));
 });
 

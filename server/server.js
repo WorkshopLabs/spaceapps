@@ -16,9 +16,9 @@ router2.get('/', function(req, res) {
 });
 
 
-// app.get('/', function(req, res) {
-// res.sendFile(path.join(__dirname, '../public/grafico.html'));
-// });
+app.get('/', function(req, res) {
+res.sendFile(path.join(__dirname, '../public/grafico.html'));
+});
 
 app.use(subdomain('space', router));
 app.use(subdomain('grafico', router2));

@@ -1,0 +1,410 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Emprende 3.0 - UCATEC</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/flipclock.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.5&appId=224863244196230";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Emprende 3.0</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#auspiciador">Conviertete en auspiciador</a></li>
+                <li><a href="#contacto">Contactanos</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="img/emprende/portada.png" alt="First slide">
+          <div class="container">
+           
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="img/emprende/portada1.png" alt="Second slide">
+          <div class="container">
+            
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="img/emprende/portada2.png" alt="Second slide">
+          <div class="container">
+            
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="img/emprende/portada3.png" alt="Third slide">
+          <div class="container">
+            
+        </div>
+       
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/grafico/people.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Conoce gente increíble</h2>
+          <p></p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/grafico/idea.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Crea, sueña, imagina</h2>
+          <p> </p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/grafico/crea.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Aprende</h2>
+          <p></p>
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+
+      <!-- START THE FEATURETTES -->
+
+
+      <hr class="featurette-divider">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-7">
+        <h1>Tiempo faltante para el gran día. <small>Día del diseñador gráfico.</small></h1>
+       <div class="clock" style="margin:2em;"></div>
+       <div class="message"></div>
+       <a href="#contacto"><div class="btn btn-info btn-lg">¡Inscríbete ahora!</div></a>
+
+       </div>
+
+    </div>
+
+
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="about">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">INNOVACIÓN Y EMPRENDIMIENTO COMO PROYECTO DE VIDA <span class="text-muted">HAZLO DIFERENTE!!</span></h2>
+          <p class="lead">En esta conferencia tendremos la presencia de jóvenes emprendedores quienes desarrollaron productos innovadores y asumieron el emprendimiento como proyecto de vida.
+Ellos te contaran su historia de vida y te darán las pautas para generar ideas, productos y servicios innovadores.
+
+
+</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/emprende/circle1.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">DETERMINA EL VALOR DE TU EMPRENDIMIENTO
+<span class="text-muted">¿QUÉ VALOR TIENE MI NEGOCIO?
+</span></h2>
+          <p class="lead">Los emprendedores quieren saber cómo valorar su negocio, cuánto pedir por él y todos los factores que influyen en la valoración.
+En la actualidad la valoración es uno de los aspectos que consideran también los inversores al momento de decidir si invierten o no en un emprendimiento.</p>
+
+<p>
+Esta conferencia te permitirá conocer los aspectos que debes considerar para determinar el valor monetario de tu emprendimiento para que así puedas saber qué porcentaje del mismo entregar a un inversor a cambio de cuánto dinero. 
+
+</p>
+
+
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/emprende/circle4.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">LIDERAZGO Y TRABAJO EN EQUIPO LAS CLAVES PARA INNOVAR
+<span class="text-muted">NO SEAS UN REPARTIDOR DE TAREAS</span></h2>
+          <p class="lead">Ser un jefe no es lo mismo que ser un líder, de igual forma que trabajar en equipo no es simplemente la suma de las aportaciones individuales. 
+Mediante una serie de juegos y actividades llenas de diversión, conocerás el verdadero valor de trabajar en equipo y la importancia del liderazgo al momento de emprender un negocio.
+
+
+
+
+</p>
+
+
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/emprende/circle3.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">SOCIAL MEDIA MARKETING PARA EMPRENDEDORES
+<span class="text-muted">LAS REDES SOCIALES ALIADAS ESTRATÉGICAS PARA TU EMPRENDIMIENTO</span></h2>
+            <p class="lead"> Las redes sociales forman parte importante de nuestras vidas. Éstas se han introducido tan bien a los hábitos modernos, que han rebasado los límites de la interacción social, para convertirse en plataformas de creación de ideas por lo que se constituyen en un medio fundamental para el desarrollo de todo tipo de negocios. </p>
+<p>
+En la actualidad es difícil entender una empresa o un proyecto de empresa, sin contar con el respaldo de las redes sociales.</p>
+<p>
+Es por ello que de nada sirve que tengas un buen producto o servicio, sino los das a conocer o se los presentas al mundo. </p>
+<p>
+En esta conferencia aprenderás sobre los lineamientos para el manejo de redes sociales para utilizar las mismas como un elemento estratégico y diferenciador para dar a conocer tu emprendimiento.</p>
+
+
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="img/emprende/circle2.png" alt="Generic placeholder image">
+          </div>
+        </div>
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">BRANDING
+        <span class="text-muted">DISEÑA UNA MARCA INOLVIDABLE</span></h2>
+                  <p class="lead">Es importante generar un diseño de marca distintivo de tal manera que la gente identifique que un producto/servicio es TUYO desde cualquier ángulo que lo vea, incluso si solo ve una pequeña parte.
+En esta conferencia tendremos la presencia de Jorge Gaitto (Argentina) quien te enseñará a crear una marca desde cero siguiendo las tendencias y exigencias actuales que se dan a nivel mundial.
+
+
+
+
+
+        </p>
+
+
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive center-block" src="img/emprende/circle6.png" alt="Generic placeholder image">
+                </div>
+              </div>
+
+
+     <hr class="featurette-divider" id="mentores">
+          <h2 class="featurette-heading">Mentores</h2>
+
+     <div class="row">
+        <div class="col-lg-12">
+          <img class="img-circle" src="img/emprende/mentor1.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Cynthia Díaz Quevedo</h2>
+          <p>Nuestra mentora,  Nacida en la ciudad de La Paz (1983), es Licenciada en Derecho de la Universidad Católica “San Pablo” (2009) y cuenta con una maestría en Derecho Internacional de los Negocios (LLM International Business Law) de la Universidad de Tilburg, Holanda (2013).</p>
+<p>En el ámbito artístico cuenta con dieciséis años de experiencia como actriz de teatro. Participó en varios festivales internacionales.
+Ganadora del primer campeonato cuenteril “Lengua de Oro” realizado en mayo 2012 en la ciudad de La Paz y con participaciones en varios festivales internacionales de narración oral.</p>
+<p>Es docente universitaria y dictó el primer Taller de Narración Oral orientado a universitarios y profesionales con el propósito de potenciar su creatividad y otorgar diferentes herramientas para desenvolverse en público bajo la línea narrativa del cuento.</p>
+<p>Finalmente en septiembre 2016 incursionó como emprendedora y gestora cultural al ser Directora de su propio Festival, llamado “Festival de Narración de La Paz – NARRAPAZ”, mismo que propone la unión y encuentro de diferentes artistas para narrar historias a través de su cuerpo y su voz.
+</p>
+        </div>
+
+
+        <div class="col-lg-12">
+          <img class="img-circle" src="img/emprende/mentor2.png" alt="Generic placeholder image" width="140" height="140" class="text-align:center">
+          <h2>Jorge Eduardo Gaitto </h2>
+          <p>Nuestro mentor Estudió Diseño Gráfico en Facultad de Arquitectura, Diseño y Urbanismo de la Universidad de Buenos Aires. Profesionalmente se ha especializado como diseñador, consultor y asesor en diseño, y comunicación. Sobre la especialidad, ha publicado notas y artículos en diversos medios gráficos y digitales, nacionales e internacionales y ha participado como jurado en numerosos concursos. Ha dictado conferencias, talleres, participado en mesas redondas, presentaciones, muestras, cursos y otras actividades relacionadas tanto con la actividad profesional, como con el desempeño académico para su mejoramiento en el ámbito universitario, en Buenos Aires, Montevideo, Lima, Bogotá, Medellín, Quito, Guayaquil, Cartagena, Santa Marta, Madrid y en las principales ciudades de Argentina. Ha diseñado y desarrollado proyectos y programas de estudios para universidades y escuelas de la Ciudad de Buenos Aires, Provincia de Buenos Aires y Provincia de Córdoba, en el área de diseño y comunicación. Actualmente, es Secretario Académico de la Facultad de Diseño y Comunicación de la Universidad de Palermo, Buenos Aires, Argentina. Es Coordinador y Evaluador de Tesis de Posgrado, de la Maestría en Diseño de la Universidad de Palermo. Es además, Profesor de varias asignaturas.
+</p>
+                  </div>
+
+              
+
+
+
+     </div>
+     
+
+
+     <hr class="featurette-divider" id="contacto">
+      <h1>¡Pre-inscribete!</h1>
+        <h2>Pre-Venta <small>Bs.- 300</small></h2>
+        <h2>Entrada Regular <small>Bs.- 350</small></h2>
+
+       <hr class="featurette-divider">
+
+      <div>
+       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQg3aQhocsJ8V6JMdRGhb7lmiYoNvNlxgcJuFaDHq8ej0SVg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+
+        <hr class="featurette-divider">
+
+      <h1 id="auspiciador">¿Quieres auspiciar este evento? <small>¿Por qué hacerlo?</small></h1>
+      <p>Apoyar y conectar con una comunidad local diversa y dinámica de innovadores. </p>
+ <p>Entender y aprender de expertise poco conocido, y aún por explotar para hacer que personas, provenientes de diferentes ambientes, se unan colectivamente en la resolución de los más difíciles desafíos. </p>
+ <p>Crear un canal de información para introducir e implementar ideas nuevas o recombinadas. </p>
+      <a href="mailto:rene@ucatec.edu.bo?subject=Auspicio_Dia_Del_Disenador"><div class="btn btn-primary btn-lg">!Quiero auspiciar!</div></a>
+
+        <hr class="featurette-divider">
+        <h1>Auspiciadores</h1>
+        <h2>Gold</h2>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="img/grafico/auspiciadores/ucatec.png" alt="UCATEC" class="img-responsive">
+            </div>
+
+
+        </div>
+         <h2>Silver</h2>
+         <div class="row">
+
+            <div class="col-md-2">
+                <img src="img/grafico/auspiciadores/workshop365.png" alt="Workshop 365"  class="img-responsive">
+            </div>
+            <div class="col-md-2">
+                <img src="img/grafico/auspiciadores/appsbo.png" alt="AppsBo"  class="img-responsive">
+            </div>
+            <div class="col-md-2">
+                <img src="img/grafico/auspiciadores/catec.gif" alt="CATEC"  class="img-responsive">
+            </div>
+            <div class="col-md-2">
+                <img src="img/grafico/auspiciadores/chitoioblack.png" alt="Chito.io"  class="img-responsive">
+            </div>
+             <div class="col-md-2">
+                <img src="img/grafico/auspiciadores/mensivo.png" alt="Mensivo"  class="img-responsive">
+            </div>
+
+        </div>
+         <h2>Bronce</h2>
+         <div class="row">
+
+
+
+        </div>
+        <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p> <a href="http://www.workshoplabs.com/" target="_blank">&copy; Workshop Labs. </a> </p>
+
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/flipclock.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-33228456-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+            var clock;
+
+            $(document).ready(function() {
+                // Grab the current date
+                                var currentDate = new Date();
+
+                                // Set some date in the future. In this case, it's always Jan 1
+                                var futureDate  = new Date(currentDate.getFullYear() , 10, 17);
+
+                                // Calculate the difference in seconds between the future and current date
+                                var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+                                // Instantiate a coutdown FlipClock
+                                clock = $('.clock').FlipClock(diff, {
+                                    clockFace: 'DailyCounter',
+                                    countdown: true
+                                });
+
+            });
+        </script>
+  </body>
+</html>

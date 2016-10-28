@@ -4,6 +4,7 @@ var app = express();
 var path = require('path');
 var router = express.Router();
 var router2 = express.Router();
+var router3 = express.Router();
 var port = process.env.PORT || 3030;
 
 //api specific routes
@@ -15,13 +16,18 @@ router2.get('/', function(req, res) {
    res.sendFile(path.join(__dirname, '../public/grafico.html'));
 });
 
-// 
-// app.get('/', function(req, res) {
-// res.sendFile(path.join(__dirname, '../public/grafico.html'));
-// });
+
+router3.get('/', function(req, res) {
+   res.sendFile(path.join(__dirname, '../public/emprende.html'));
+});
+
+app.get('/', function(req, res) {
+res.sendFile(path.join(__dirname, '../public/emprende.html'));
+});
 
 app.use(subdomain('space', router));
 app.use(subdomain('grafico', router2));
+app.use(subdomain('emprende', router2));
 
 app.use(express.static(path.join(__dirname, '../public')));
 
